@@ -1,0 +1,222 @@
+[
+  {
+    "id": "a-site-jungle-smoke",
+    "title": "A Site Jungle Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "A Site",
+    "tags": ["A site", "jungle", "entry", "T spawn"],
+    "summary": "Smoke off jungle to allow safe A push from T side",
+    "order": 1,
+    "updatedAt": "2026-01-15",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/a_jungle_smoke_pos1.webp", "caption": "Stand at top mid near the T ramp corner"}],
+      "aim": [{"src": "/assets/spots/mirage/a_jungle_smoke_aim1.webp", "caption": "Aim at the antenna on the rooftop"}],
+      "effect": [{"src": "/assets/spots/mirage/a_jungle_smoke_effect1.webp", "caption": "Jungle window is smoked off"}]
+    },
+    "steps": {
+      "position": ["Go to T ramp", "Stand at the right edge of the ramp entrance", "Hug the right wall"],
+      "aim": ["Look up toward the large rooftop antenna", "Crosshair at the base of the antenna", "Fine-tune slightly left"],
+      "throw": {"method": "jumpthrow", "text": ["Jumpthrow bind recommended", "Hold W and release at jump peak"], "timingNote": "Throw immediately when entering ramp"}
+    }
+  },
+  {
+    "id": "ct-smoke-from-top-mid",
+    "title": "CT Smoke from Top Mid",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "Mid",
+    "tags": ["CT", "mid", "short", "smoke"],
+    "summary": "Smoke CT from top mid to push short or execute A",
+    "order": 2,
+    "updatedAt": "2026-01-14",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/ct_smoke_pos1.webp", "caption": "Stand at top mid T side"}],
+      "aim": [{"src": "/assets/spots/mirage/ct_smoke_aim1.webp", "caption": "Aim at the ledge of the CT building"}],
+      "effect": [{"src": "/assets/spots/mirage/ct_smoke_effect1.webp", "caption": "CT is blocked from mid view"}]
+    },
+    "steps": {
+      "position": ["Reach top mid from T side", "Stand against the left wall at top mid", "Do not enter mid stairs"],
+      "aim": ["Look toward the CT building rooftop", "Align with the corner of the rooftop parapet", "Keep it steady"],
+      "throw": {"method": "left", "text": ["Standing left-click throw", "Smoke will arc perfectly into CT area"], "timingNote": "Throw before pushing short connector"}
+    }
+  },
+  {
+    "id": "window-smoke-from-t-spawn",
+    "title": "Mid Window Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "Mid",
+    "tags": ["mid", "window", "T spawn"],
+    "summary": "Smoke the window room to allow safe mid presence",
+    "order": 3,
+    "updatedAt": "2026-01-12",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/window_smoke_pos1.webp", "caption": "Stand at T spawn near the van"}],
+      "aim": [{"src": "/assets/spots/mirage/window_smoke_aim1.webp", "caption": "Aim just above the window room ledge"}],
+      "effect": [{"src": "/assets/spots/mirage/window_smoke_effect1.webp", "caption": "Window room is fully smoked"}]
+    },
+    "steps": {
+      "position": ["Go to T spawn", "Stand next to the van on the right side", "Face mid direction"],
+      "aim": ["Look up toward window room", "Crosshair on the upper left corner of the window frame", "Slight adjustment for wind"],
+      "throw": {"method": "left", "text": ["Left-click standing throw", "Do not move when throwing"], "timingNote": "Throw when going to take mid control"}
+    }
+  },
+  {
+    "id": "a-short-flash",
+    "title": "A Short Pop Flash",
+    "utilityType": "flash",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "A Site",
+    "tags": ["A site", "short", "flash", "entry"],
+    "summary": "Pop flash over the short wall to blind CT on A site",
+    "order": 4,
+    "updatedAt": "2026-01-13",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/a_short_flash_pos1.webp", "caption": "Stand at bottom of A ramp"}],
+      "aim": [{"src": "/assets/spots/mirage/a_short_flash_aim1.webp", "caption": "Aim above the short wall corner"}],
+      "effect": [{"src": "/assets/spots/mirage/a_short_flash_effect1.webp", "caption": "CT holding short is blinded"}]
+    },
+    "steps": {
+      "position": ["Push up A ramp", "Stop at the bottom of short", "Stand against the left wall"],
+      "aim": ["Look up at about 60 degrees", "Aim just above the short wall top edge", "The flash will arc over and pop on CT side"],
+      "throw": {"method": "right", "text": ["Right-click soft lob over the wall", "Time it so teammates are ready to push"], "timingNote": "Call for push immediately after throwing"}
+    }
+  },
+  {
+    "id": "b-site-van-smoke",
+    "title": "B Site Van Smoke",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "van", "entry"],
+    "summary": "Smoke the van on B site to push B from apartments",
+    "order": 5,
+    "updatedAt": "2026-01-11",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/b_van_smoke_pos1.webp", "caption": "Stand at B apartments entrance"}],
+      "aim": [{"src": "/assets/spots/mirage/b_van_smoke_aim1.webp", "caption": "Aim at the chimney above van"}],
+      "effect": [{"src": "/assets/spots/mirage/b_van_smoke_effect1.webp", "caption": "Van area is fully smoked"}]
+    },
+    "steps": {
+      "position": ["Exit B apartments", "Stand at the doorframe of B apartments exit", "Face B site"],
+      "aim": ["Look at the chimney on the rooftop above van", "Aim at the top left of the chimney", "Small adjustment needed"],
+      "throw": {"method": "left", "text": ["Left-click standing throw", "Van will be covered"], "timingNote": "Throw when ready to push B"}
+    }
+  },
+  {
+    "id": "b-apartments-molotov",
+    "title": "B Apartments Molotov from CT",
+    "utilityType": "molotov",
+    "side": "CT",
+    "difficulty": "medium",
+    "area": "B Site",
+    "tags": ["B site", "apartments", "molotov", "CT"],
+    "summary": "CT-side molotov thrown into B apartments to slow down rush",
+    "order": 6,
+    "updatedAt": "2026-01-10",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/b_apts_molotov_pos1.webp", "caption": "Stand at B CT position near bench"}],
+      "aim": [{"src": "/assets/spots/mirage/b_apts_molotov_aim1.webp", "caption": "Aim at the apartments window"}],
+      "effect": [{"src": "/assets/spots/mirage/b_apts_molotov_effect1.webp", "caption": "Apartments exit is on fire"}]
+    },
+    "steps": {
+      "position": ["Take CT default B position", "Stand near the bench/sandbag area", "Face B apartments direction"],
+      "aim": ["Aim at the upper section of the apartments exit window", "Slightly above the frame"],
+      "throw": {"method": "left", "text": ["Left-click throw", "Molotov will land at apartments exit"], "timingNote": "Throw when hearing B apartments rush"}
+    }
+  },
+  {
+    "id": "short-corner-he",
+    "title": "A Short Corner HE",
+    "utilityType": "he",
+    "side": "CT",
+    "difficulty": "easy",
+    "area": "A Site",
+    "tags": ["A site", "short", "HE"],
+    "summary": "HE grenade to damage Ts pushing from short onto A site",
+    "order": 7,
+    "updatedAt": "2026-01-09",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/short_he_pos1.webp", "caption": "CT position on A site platform"}],
+      "aim": [{"src": "/assets/spots/mirage/short_he_aim1.webp", "caption": "Aim at the top of short wall"}],
+      "effect": [{"src": "/assets/spots/mirage/short_he_effect1.webp", "caption": "Grenade explodes at short entrance"}]
+    },
+    "steps": {
+      "position": ["Start at CT A site default", "Stand at the platform near the pillar", "Face short A"],
+      "aim": ["Look at the top of the short connector wall", "Crosshair just above the wall top"],
+      "throw": {"method": "left", "text": ["Left-click throw", "Grenade will clear the wall and burst at short"], "timingNote": "Throw when Ts are pushing short"}
+    }
+  },
+  {
+    "id": "jungle-flash-for-a-execute",
+    "title": "Jungle Flash for A Execute",
+    "utilityType": "flash",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "A Site",
+    "tags": ["A site", "jungle", "flash", "execute"],
+    "summary": "Flash thrown to blind CT in jungle during A execute",
+    "order": 8,
+    "updatedAt": "2026-01-08",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/jungle_flash_pos1.webp", "caption": "Stand at T ramp near top"}],
+      "aim": [{"src": "/assets/spots/mirage/jungle_flash_aim1.webp", "caption": "Aim at the jungle rooftop wall"}],
+      "effect": [{"src": "/assets/spots/mirage/jungle_flash_effect1.webp", "caption": "Jungle CT is fully flashed"}]
+    },
+    "steps": {
+      "position": ["Push up T ramp to near top", "Stand on the right side", "Face jungle window"],
+      "aim": ["Look at the upper right corner of the jungle wall", "Aim just at the corner edge"],
+      "throw": {"method": "right", "text": ["Right-click over-the-wall flash", "Flash pops right in front of jungle CT"], "timingNote": "Coordinate with team before throwing"}
+    }
+  },
+  {
+    "id": "ticket-booth-smoke",
+    "title": "Ticket Booth Smoke from B Apps",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "hard",
+    "area": "B Site",
+    "tags": ["B site", "ticket booth", "apps"],
+    "summary": "Smoke off the ticket booth angle from B apartments",
+    "order": 9,
+    "updatedAt": "2026-01-07",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/ticket_smoke_pos1.webp", "caption": "Position in B apartments upper floor"}],
+      "aim": [{"src": "/assets/spots/mirage/ticket_smoke_aim1.webp", "caption": "Aim at the small gap in the rooftop"}],
+      "effect": [{"src": "/assets/spots/mirage/ticket_smoke_effect1.webp", "caption": "Ticket booth is smoked"}]
+    },
+    "steps": {
+      "position": ["Go to upper B apartments", "Stand at the corner window position", "Align body with the left wall"],
+      "aim": ["Look up at a very steep angle", "Aim at the tiny gap between the two rooftops", "This lineup requires pixel-perfect aim"],
+      "throw": {"method": "jumpthrow", "text": ["Jumpthrow is mandatory for this lineup", "Bind +jump alias"], "timingNote": "Practice this in DM mode first"}
+    }
+  },
+  {
+    "id": "ct-to-a-site-flash",
+    "title": "CT to A Site Flash",
+    "utilityType": "flash",
+    "side": "CT",
+    "difficulty": "easy",
+    "area": "A Site",
+    "tags": ["A site", "CT", "flash", "retake"],
+    "summary": "CT flash to support retake from CT spawn area",
+    "order": 10,
+    "updatedAt": "2026-01-16",
+    "media": {
+      "position": [{"src": "/assets/spots/mirage/ct_a_flash_pos1.webp", "caption": "Stand at CT spawn near A site entrance"}],
+      "aim": [{"src": "/assets/spots/mirage/ct_a_flash_aim1.webp", "caption": "Aim above the A site ramp wall"}],
+      "effect": [{"src": "/assets/spots/mirage/ct_a_flash_effect1.webp", "caption": "T side on A site is blinded"}]
+    },
+    "steps": {
+      "position": ["Start from CT spawn", "Move to just outside A site CT entrance", "Hug the left wall"],
+      "aim": ["Look above the A site ramp wall top", "Aim at the sky just above the corner"],
+      "throw": {"method": "right", "text": ["Right-click lob over the wall", "Flash pops on A site ramp side"], "timingNote": "Use during retake to blind T side"}
+    }
+  }
+]

@@ -1,0 +1,5 @@
+[
+  {"id":"de_dust2","name":"Dust2","thumbnail":"/assets/maps/dust2.webp","spotsFile":"/data/de_dust2.spots.json"},
+  {"id":"de_mirage","name":"Mirage","thumbnail":"/assets/maps/mirage.webp","spotsFile":"/data/de_mirage.spots.json"},
+  {"id":"de_inferno","name":"Inferno","thumbnail":"/assets/maps/inferno.webp","spotsFile":"/data/de_inferno.spots.json"}
+]
