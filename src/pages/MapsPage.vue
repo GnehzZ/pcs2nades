@@ -7,6 +7,10 @@ const catalog = useCatalogStore()
 
 onMounted(async () => {
   if (!catalog.maps.length) await catalog.loadMaps()
+  // Preload all spots to show correct counts on home page
+  for (const map of catalog.maps) {
+    catalog.loadSpots(map.id)
+  }
 })
 </script>
 

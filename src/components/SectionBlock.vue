@@ -3,12 +3,14 @@ import { ref } from 'vue'
 import type { MediaItem } from '../types'
 import Lightbox from './Lightbox.vue'
 
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   title: string
   steps: string[]
   images: MediaItem[]
   showImages?: boolean
-}>()
+}>(), {
+  showImages: true
+})
 
 const lightboxOpen = ref(false)
 const lightboxIndex = ref(0)
@@ -30,7 +32,7 @@ function onImgError(src: string) {
     <ol v-if="steps.length" class="step-list">
       <li v-for="(step, i) in steps" :key="i">{{ step }}</li>
     </ol>
-    <div v-if="(props.showImages !== false) && images.length" class="image-grid">
+    <div v-if="showImages && images.length" class="image-grid">
       <div v-for="(img, i) in images" :key="img.src" class="image-item">
         <img
           :src="failedImages.has(img.src) ? '/assets/placeholder.webp' : img.src"
