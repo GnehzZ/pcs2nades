@@ -1,0 +1,222 @@
+[
+  {
+    "id": "b-site-smoke-from-t-spawn",
+    "title": "B Site Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "entry", "T spawn"],
+    "summary": "Standard B site smoke thrown from T spawn to block CT vision",
+    "order": 1,
+    "updatedAt": "2026-01-15",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/b_smoke_pos1.webp", "caption": "Stand at the left corner of T spawn"}],
+      "aim": [{"src": "/assets/spots/dust2/b_smoke_aim1.webp", "caption": "Aim at the antenna above B doors"}],
+      "effect": [{"src": "/assets/spots/dust2/b_smoke_effect1.webp", "caption": "Smoke lands on CT side of B site"}]
+    },
+    "steps": {
+      "position": ["Go to T spawn left corner", "Face towards B doors", "Align your body with the wall edge"],
+      "aim": ["Look up at the edge of the B-site rooftop", "Align crosshair with the antenna tip", "Keep crosshair slightly left of center"],
+      "throw": {"method": "left", "text": ["Left click throw while standing still", "Do not move before throwing"], "timingNote": "Throw at round start immediately"}
+    }
+  },
+  {
+    "id": "a-site-smoke-from-t-spawn",
+    "title": "A Site CT Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "A Site",
+    "tags": ["A site", "CT", "entry"],
+    "summary": "Blocks CT position on A site from T spawn area",
+    "order": 2,
+    "updatedAt": "2026-01-15",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/a_smoke_pos1.webp", "caption": "Stand at the corner near T ramp"}],
+      "aim": [{"src": "/assets/spots/dust2/a_smoke_aim1.webp", "caption": "Aim at the tip of the crane"}],
+      "effect": [{"src": "/assets/spots/dust2/a_smoke_effect1.webp", "caption": "Smoke lands on CT on A site"}]
+    },
+    "steps": {
+      "position": ["Head to T ramp area", "Stand at the right side wall corner", "Face towards long A"],
+      "aim": ["Look up towards the crane structure", "Align crosshair with the very tip of crane arm", "Fine-tune slightly right"],
+      "throw": {"method": "jumpthrow", "text": ["Jump and release left click simultaneously", "Use +jump alias for consistency"], "timingNote": "Throw while moving forward slightly"}
+    }
+  },
+  {
+    "id": "mid-window-smoke",
+    "title": "Mid Window Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "Mid",
+    "tags": ["mid", "window", "catwalk"],
+    "summary": "Smokes the window room to allow safe mid crossing",
+    "order": 3,
+    "updatedAt": "2026-01-10",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/mid_smoke_pos1.webp", "caption": "Stand at mid doors area"}],
+      "aim": [{"src": "/assets/spots/dust2/mid_smoke_aim1.webp", "caption": "Aim at the window ledge"}],
+      "effect": [{"src": "/assets/spots/dust2/mid_smoke_effect1.webp", "caption": "Window is completely smoked off"}]
+    },
+    "steps": {
+      "position": ["Position yourself at mid doors", "Stand against the right door frame", "Do not crouch"],
+      "aim": ["Look up at the left edge of the window room opening", "Crosshair on the overhanging beam", "Keep it steady"],
+      "throw": {"method": "left", "text": ["Standing left-click throw", "Release while stationary"], "timingNote": "Throw when crossing mid"}
+    }
+  },
+  {
+    "id": "ct-flash-from-long",
+    "title": "CT Flash from Long A",
+    "utilityType": "flash",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "Long A",
+    "tags": ["long", "A site", "flash", "CT"],
+    "summary": "Pop flash over the long A corner to blind CTs holding on site",
+    "order": 4,
+    "updatedAt": "2026-01-12",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/ct_flash_pos1.webp", "caption": "Stand at long corner"}],
+      "aim": [{"src": "/assets/spots/dust2/ct_flash_aim1.webp", "caption": "Aim just above the wall edge"}],
+      "effect": [{"src": "/assets/spots/dust2/ct_flash_effect1.webp", "caption": "CT side is blinded"}]
+    },
+    "steps": {
+      "position": ["Push to long A corner (the pit edge)", "Hug the right side of the wall", "Crouch slightly for consistent angle"],
+      "aim": ["Look up and slightly right", "Aim just above the corner wall edge", "The flash should go over the wall"],
+      "throw": {"method": "right", "text": ["Right-click for a shorter throw distance", "The flash will pop behind the wall"], "timingNote": "Use when teammates are ready to push"}
+    }
+  },
+  {
+    "id": "b-molotov-from-t-ramp",
+    "title": "B Site Molotov from T Ramp",
+    "utilityType": "molotov",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "molotov", "tunnel"],
+    "summary": "Molotov to clear default B plant position from tunnel entry",
+    "order": 5,
+    "updatedAt": "2026-01-13",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/b_molotov_pos1.webp", "caption": "Stand at the tunnel exit towards B site"}],
+      "aim": [{"src": "/assets/spots/dust2/b_molotov_aim1.webp", "caption": "Aim at the top right of the B site box"}],
+      "effect": [{"src": "/assets/spots/dust2/b_molotov_effect1.webp", "caption": "Default plant position is on fire"}]
+    },
+    "steps": {
+      "position": ["Exit upper B tunnels", "Stand at the first pillar on the right", "Face B site"],
+      "aim": ["Look at the top edge of the large crate on site", "Aim slightly above it to lob over"],
+      "throw": {"method": "left", "text": ["Left-click throw, do not jump", "Molotov will arc over the crate and land on plant spot"], "timingNote": "Throw before pushing site"}
+    }
+  },
+  {
+    "id": "long-a-smoke-from-catwalk",
+    "title": "Long A Smoke from Catwalk",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "hard",
+    "area": "Long A",
+    "tags": ["long", "catwalk", "A site", "pit"],
+    "summary": "Smoke covers the long A pit position from catwalk",
+    "order": 6,
+    "updatedAt": "2026-01-08",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/long_smoke_pos1.webp", "caption": "Position on catwalk near the railing"}],
+      "aim": [{"src": "/assets/spots/dust2/long_smoke_aim1.webp", "caption": "Aim at the corner of the rooftop"}],
+      "effect": [{"src": "/assets/spots/dust2/long_smoke_effect1.webp", "caption": "Pit is smoked out"}]
+    },
+    "steps": {
+      "position": ["Go to catwalk area", "Stand right next to the railing post", "Face toward long A"],
+      "aim": ["Look at the rooftop on the long A building", "Crosshair on the far right corner of the roof edge", "Very precise alignment needed"],
+      "throw": {"method": "jumpthrow", "text": ["Jumpthrow required for this lineup", "Bind +jump to a key for consistency"], "timingNote": "Do this before rotating to long"}
+    }
+  },
+  {
+    "id": "catwalk-flash-for-mid",
+    "title": "Catwalk Flash for Mid Crossing",
+    "utilityType": "flash",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "Mid",
+    "tags": ["catwalk", "mid", "flash"],
+    "summary": "Flash to blind CTs watching mid from catwalk side",
+    "order": 7,
+    "updatedAt": "2026-01-11",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/catwalk_flash_pos1.webp", "caption": "Stand at mid doors right side"}],
+      "aim": [{"src": "/assets/spots/dust2/catwalk_flash_aim1.webp", "caption": "Aim at the sky above catwalk"}],
+      "effect": [{"src": "/assets/spots/dust2/catwalk_flash_effect1.webp", "caption": "Catwalk CT is blinded"}]
+    },
+    "steps": {
+      "position": ["Go to mid doors right side", "Stand against the wall", "Face catwalk direction"],
+      "aim": ["Look up at approximately 70 degrees", "Aim above the catwalk opening", "Flash should fly over and pop behind"],
+      "throw": {"method": "right", "text": ["Right-click soft throw", "Walk forward slightly as you throw"], "timingNote": "Time with teammate crossing mid"}
+    }
+  },
+  {
+    "id": "a-site-he-short",
+    "title": "A Short HE Grenade",
+    "utilityType": "he",
+    "side": "CT",
+    "difficulty": "medium",
+    "area": "A Site",
+    "tags": ["A site", "short", "HE", "catwalk"],
+    "summary": "HE grenade thrown to A short to damage incoming T-side players",
+    "order": 8,
+    "updatedAt": "2026-01-14",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/a_site_he_pos1.webp", "caption": "CT position near A site default"}],
+      "aim": [{"src": "/assets/spots/dust2/a_site_he_aim1.webp", "caption": "Aim at the short corner entrance wall"}],
+      "effect": [{"src": "/assets/spots/dust2/a_site_he_effect1.webp", "caption": "HE damages players at short entrance"}]
+    },
+    "steps": {
+      "position": ["Start at default CT A site position", "Stand at the back of the platform", "Face A short entrance"],
+      "aim": ["Aim at the wall just above the short entrance door", "Crosshair on the top edge of the entrance archway"],
+      "throw": {"method": "left", "text": ["Left-click standard throw", "The grenade bounces off the wall into short"], "timingNote": "Throw when you hear T side footsteps"}
+    }
+  },
+  {
+    "id": "b-doors-smoke-ct",
+    "title": "B Doors Smoke from CT",
+    "utilityType": "smoke",
+    "side": "CT",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "B doors", "CT", "retake"],
+    "summary": "CT smoke for B doors to prevent B tunnel rush",
+    "order": 9,
+    "updatedAt": "2026-01-16",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/b_doors_smoke_pos1.webp", "caption": "Stand near B site default plant"}],
+      "aim": [{"src": "/assets/spots/dust2/b_doors_smoke_aim1.webp", "caption": "Aim at the top of B doors frame"}],
+      "effect": [{"src": "/assets/spots/dust2/b_doors_smoke_effect1.webp", "caption": "B doors are smoked off"}]
+    },
+    "steps": {
+      "position": ["Take CT B site default position", "Crouch behind the short wall", "Face toward B doors"],
+      "aim": ["Look up at B doors top frame", "Align with the horizontal beam above doors", "Keep crosshair slightly left"],
+      "throw": {"method": "left", "text": ["Standing left-click throw from crouch", "Do not move"], "timingNote": "Throw when expecting B rush"}
+    }
+  },
+  {
+    "id": "upper-tunnel-smoke",
+    "title": "Upper Tunnels Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "B Site",
+    "tags": ["B site", "tunnel", "T spawn", "upper tunnel"],
+    "summary": "Smokes the entrance to upper tunnels from T spawn area",
+    "order": 10,
+    "updatedAt": "2026-01-09",
+    "media": {
+      "position": [{"src": "/assets/spots/dust2/tunnel_smoke_pos1.webp", "caption": "Stand at the T spawn box corner"}],
+      "aim": [{"src": "/assets/spots/dust2/tunnel_smoke_aim1.webp", "caption": "Aim above the tunnel entrance archway"}],
+      "effect": [{"src": "/assets/spots/dust2/tunnel_smoke_effect1.webp", "caption": "Upper tunnel entrance is smoked"}]
+    },
+    "steps": {
+      "position": ["Go to T spawn area", "Stand at the far box in spawn", "Face toward B tunnel direction"],
+      "aim": ["Look up and to the left", "Aim above the arch of the tunnel entrance", "Small adjustment needed per run"],
+      "throw": {"method": "jumpthrow", "text": ["Jumpthrow for consistent landing", "Make sure you have a full run-up stopped before throwing"], "timingNote": "Use at the start of the round to block rotations"}
+    }
+  }
+]

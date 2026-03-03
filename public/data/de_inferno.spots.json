@@ -1,0 +1,222 @@
+[
+  {
+    "id": "banana-smoke-from-t-spawn",
+    "title": "Banana Smoke from T Spawn",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "banana", "T spawn", "entry"],
+    "summary": "Smoke banana to push B site safely from T side",
+    "order": 1,
+    "updatedAt": "2026-01-15",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/banana_smoke_pos1.webp", "caption": "Stand at T spawn near banana entrance"}],
+      "aim": [{"src": "/assets/spots/inferno/banana_smoke_aim1.webp", "caption": "Aim at the top of the building on banana"}],
+      "effect": [{"src": "/assets/spots/inferno/banana_smoke_effect1.webp", "caption": "Banana is fully smoked off"}]
+    },
+    "steps": {
+      "position": ["Start at T spawn", "Go to the far left wall near banana entrance", "Align with the corner"],
+      "aim": ["Look up toward the building at top banana", "Aim at the rooftop corner edge", "Slight left adjustment"],
+      "throw": {"method": "left", "text": ["Standing left-click throw", "Do not move"], "timingNote": "Throw at round start for banana control"}
+    }
+  },
+  {
+    "id": "ct-smoke-from-banana",
+    "title": "CT Smoke from Banana",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "B Site",
+    "tags": ["B site", "CT", "banana"],
+    "summary": "Smoke CT position on B site from banana approach",
+    "order": 2,
+    "updatedAt": "2026-01-14",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/ct_smoke_pos1.webp", "caption": "Stand at lower banana area"}],
+      "aim": [{"src": "/assets/spots/inferno/ct_smoke_aim1.webp", "caption": "Aim at the chimney on CT building"}],
+      "effect": [{"src": "/assets/spots/inferno/ct_smoke_effect1.webp", "caption": "CT is smoked off from B site"}]
+    },
+    "steps": {
+      "position": ["Push to lower banana", "Stand at the right side wall", "Face B site"],
+      "aim": ["Look at the chimney on the CT building rooftop", "Aim at the left side of the chimney base"],
+      "throw": {"method": "jumpthrow", "text": ["Jumpthrow required for this lineup", "Use +jump alias"], "timingNote": "Throw after banana smoke lands"}
+    }
+  },
+  {
+    "id": "b-site-car-molotov",
+    "title": "B Site Car Molotov from Banana",
+    "utilityType": "molotov",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "car", "molotov", "banana"],
+    "summary": "Molotov the car position to clear CT from B site car",
+    "order": 3,
+    "updatedAt": "2026-01-13",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/car_molotov_pos1.webp", "caption": "Stand at banana exit"}],
+      "aim": [{"src": "/assets/spots/inferno/car_molotov_aim1.webp", "caption": "Aim at the car on B site"}],
+      "effect": [{"src": "/assets/spots/inferno/car_molotov_effect1.webp", "caption": "Car position is cleared by fire"}]
+    },
+    "steps": {
+      "position": ["Push to banana exit", "Stand at the corner near the sandbags", "Face B site car"],
+      "aim": ["Look directly at the car", "Aim at the roof of the car", "Lower angle than you think"],
+      "throw": {"method": "left", "text": ["Left-click direct throw", "Molotov lands on and around the car"], "timingNote": "Throw after CT smoke, before pushing"}
+    }
+  },
+  {
+    "id": "a-site-apps-smoke",
+    "title": "A Site Apartments Smoke",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "A Site",
+    "tags": ["A site", "apartments", "entry"],
+    "summary": "Smoke the A site apartments exit to push A from library",
+    "order": 4,
+    "updatedAt": "2026-01-12",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/a_apps_smoke_pos1.webp", "caption": "Stand at library near arch entrance"}],
+      "aim": [{"src": "/assets/spots/inferno/a_apps_smoke_aim1.webp", "caption": "Aim at the arch above apartments exit"}],
+      "effect": [{"src": "/assets/spots/inferno/a_apps_smoke_effect1.webp", "caption": "Apartments exit is smoked"}]
+    },
+    "steps": {
+      "position": ["Go to library area", "Stand at the arch entrance from T side", "Hug the right wall"],
+      "aim": ["Look up at the apartments building", "Aim at the upper corner of the apartments exit archway"],
+      "throw": {"method": "left", "text": ["Standing left-click throw", "Smoke covers apartments exit fully"], "timingNote": "Throw in coordination with team A execute"}
+    }
+  },
+  {
+    "id": "boiler-flash",
+    "title": "Boiler Flash from Banana",
+    "utilityType": "flash",
+    "side": "T",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "boiler", "flash", "banana"],
+    "summary": "Flash to blind the CT holding boiler from banana push",
+    "order": 5,
+    "updatedAt": "2026-01-11",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/boiler_flash_pos1.webp", "caption": "Stand at mid banana near the wall"}],
+      "aim": [{"src": "/assets/spots/inferno/boiler_flash_aim1.webp", "caption": "Aim at the boiler room ledge"}],
+      "effect": [{"src": "/assets/spots/inferno/boiler_flash_effect1.webp", "caption": "Boiler CT is blinded"}]
+    },
+    "steps": {
+      "position": ["Push mid banana", "Stand behind the first piece of cover", "Face boiler direction"],
+      "aim": ["Look at the boiler room rooftop edge", "Aim just above the rooftop corner"],
+      "throw": {"method": "right", "text": ["Right-click lob over the wall", "Flash will pop inside boiler area"], "timingNote": "Use when teammate calls boiler CT"}
+    }
+  },
+  {
+    "id": "a-site-ct-smoke",
+    "title": "A Site CT Smoke from T Side",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "hard",
+    "area": "A Site",
+    "tags": ["A site", "CT", "execute"],
+    "summary": "Smoke off CT position during A site execute from library",
+    "order": 6,
+    "updatedAt": "2026-01-10",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/a_ct_smoke_pos1.webp", "caption": "Stand at library wall near T entrance"}],
+      "aim": [{"src": "/assets/spots/inferno/a_ct_smoke_aim1.webp", "caption": "Aim at the specific ledge on CT building"}],
+      "effect": [{"src": "/assets/spots/inferno/a_ct_smoke_effect1.webp", "caption": "CT position on A site is blocked"}]
+    },
+    "steps": {
+      "position": ["Go to library T side", "Stand at the precise corner of the left wall", "Do not crouch"],
+      "aim": ["Look up at CT building rooftop", "Aim at the very edge of the parapet wall", "This is a pixel-level lineup"],
+      "throw": {"method": "jumpthrow", "text": ["Must use jumpthrow", "Any deviation will miss the lineup"], "timingNote": "Practice extensively before using in match"}
+    }
+  },
+  {
+    "id": "top-banana-he",
+    "title": "Top Banana HE from T Spawn",
+    "utilityType": "he",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "B Site",
+    "tags": ["B site", "banana", "HE", "T spawn"],
+    "summary": "HE to damage CTs holding top banana from T spawn",
+    "order": 7,
+    "updatedAt": "2026-01-09",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/top_banana_he_pos1.webp", "caption": "Stand at T spawn far left corner"}],
+      "aim": [{"src": "/assets/spots/inferno/top_banana_he_aim1.webp", "caption": "Aim above the banana wall"}],
+      "effect": [{"src": "/assets/spots/inferno/top_banana_he_effect1.webp", "caption": "HE explodes at top banana"}]
+    },
+    "steps": {
+      "position": ["Start at T spawn", "Go to the far left corner", "Face banana direction"],
+      "aim": ["Look up at about 45 degrees", "Aim above the banana wall top", "Slight overshoot is better"],
+      "throw": {"method": "left", "text": ["Left-click lofted throw", "Grenade arcs over and bursts at top banana"], "timingNote": "Throw before walking to banana to damage CT"}
+    }
+  },
+  {
+    "id": "b-short-retake-flash",
+    "title": "B Short Retake Flash",
+    "utilityType": "flash",
+    "side": "CT",
+    "difficulty": "easy",
+    "area": "B Site",
+    "tags": ["B site", "retake", "CT", "flash"],
+    "summary": "CT flash from B short to blind T side during retake",
+    "order": 8,
+    "updatedAt": "2026-01-08",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/b_short_flash_pos1.webp", "caption": "Stand at B short entrance near the stairs"}],
+      "aim": [{"src": "/assets/spots/inferno/b_short_flash_aim1.webp", "caption": "Aim above the B site wall"}],
+      "effect": [{"src": "/assets/spots/inferno/b_short_flash_effect1.webp", "caption": "T side on B site is blinded"}]
+    },
+    "steps": {
+      "position": ["Move to B short from CT spawn", "Position at the bottom of short stairs", "Hug the left wall"],
+      "aim": ["Look up toward B site over the wall", "Aim at the sky above the site"],
+      "throw": {"method": "right", "text": ["Right-click lob into site", "Flash pops above T side"], "timingNote": "Call 'flashing B short' before throwing"}
+    }
+  },
+  {
+    "id": "pit-smoke-for-b-execute",
+    "title": "Pit Smoke for B Execute",
+    "utilityType": "smoke",
+    "side": "T",
+    "difficulty": "medium",
+    "area": "B Site",
+    "tags": ["B site", "pit", "execute"],
+    "summary": "Smoke the pit area during B site execute from banana",
+    "order": 9,
+    "updatedAt": "2026-01-07",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/pit_smoke_pos1.webp", "caption": "Stand at lower banana near the arch"}],
+      "aim": [{"src": "/assets/spots/inferno/pit_smoke_aim1.webp", "caption": "Aim at the left corner of the arch roof"}],
+      "effect": [{"src": "/assets/spots/inferno/pit_smoke_effect1.webp", "caption": "Pit position is smoked off"}]
+    },
+    "steps": {
+      "position": ["Push to lower banana arch area", "Stand in the center of the arch opening", "Face B site pit"],
+      "aim": ["Look at the left edge of the arch rooftop", "Aim at the very corner of the stone edge"],
+      "throw": {"method": "left", "text": ["Standing left-click throw", "Smoke will roll into pit area"], "timingNote": "Throw in sync with team execute"}
+    }
+  },
+  {
+    "id": "a-apps-molotov-ct",
+    "title": "A Apartments Molotov from CT",
+    "utilityType": "molotov",
+    "side": "CT",
+    "difficulty": "medium",
+    "area": "A Site",
+    "tags": ["A site", "apartments", "molotov", "CT"],
+    "summary": "Molotov thrown into A apartments to delay T push",
+    "order": 10,
+    "updatedAt": "2026-01-16",
+    "media": {
+      "position": [{"src": "/assets/spots/inferno/a_apps_molotov_pos1.webp", "caption": "Stand at CT A site near pillar"}],
+      "aim": [{"src": "/assets/spots/inferno/a_apps_molotov_aim1.webp", "caption": "Aim above the apartments rooftop"}],
+      "effect": [{"src": "/assets/spots/inferno/a_apps_molotov_effect1.webp", "caption": "Apartments lower entry is on fire"}]
+    },
+    "steps": {
+      "position": ["Start at CT A site default", "Stand behind the center pillar", "Face apartments direction"],
+      "aim": ["Look up at the apartments roof overhang", "Aim just above the rooftop edge"],
+      "throw": {"method": "left", "text": ["Left-click lob over the building", "Molotov will land at apartments lower exit"], "timingNote": "Throw when you hear apartments movement"}
+    }
+  }
+]
